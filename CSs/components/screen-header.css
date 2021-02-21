@@ -24,3 +24,14 @@
     align-self: auto;
     right:17px;
     }
+    @keyframes rotate{
+        from{
+            transform: none;
+        }to{
+            transform: rotateZ(350deg);
+        }
+    }
+
+    .screen-header__icons .fa-cog:hover{
+        animation: rotate 2s linear infinite;
+    }

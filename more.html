@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends Screen</title>
+    <title>More-screen</title>
 </head>
 <body>
     <div class  ="status-bar">
@@ -23,60 +23,62 @@
         </div>
     </div>
     <header class="screen-header">
-        <h1 class="screen-header__titles">Friends</h1>
+        <h1 class="screen-header__titles">More</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
             <span><i class="fas fa-music fa-lg"></i></span>
             <span><a href="setting.html"><i class="fas fa-cog fa-lg"></i></a></span>
+            <span class="screen-header__cog"></span>
         </div>
     </header>
-    <a id="firends-display-link">
-        <i class="fas fa-info-circle"></i>Frineds Names Display <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-    <main class="friends-screen">
+    <main class="main-screen more-screen">
         <div class="user-component">
             <div class="user-component__column">
                 <img src="https://avatars.githubusercontent.com/u/78739194?s=60&u=8aa04bcb485c5b94c69792dc2c1a2f2d5430e9c3&v=4" class="user-component__avatar user-component__avatar--xl">
                 <div class="user-component__text">
                     <h4 class="user-component__title">Chans</h4>
-                    <!-- <h6 class="user-component__subtitle">This Text Whatever</h5> -->
+                    <h6 class="user-component__subtitle">+1 787 666 9999<i class="fas fa-exclamation-circle exm"></i></h6>
+                    
                 </div>
             </div>
-            <div class="user-component__column"></div>
-        </div>
-        <div class="friends-screen__channel">
-            <div class="friends-screen__channel-header">
-                <span>Channel</span><i class="fas fa-chevron-up fa-xs"></i>
-            </div>
-            <div class="user-component">
-                <div class="user-component__column">
-                    <img src="https://t1.daumcdn.net/cfile/tistory/99792D425D0895002A" class="user-component__avatar user-component__avatar--sm">
-                    <div class="user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-                    </div>
-                </div>
-                <div class="user-component__column">
-                    <div>
-                        <span>2</span>
-                        <i class="fas fa-chevron-right fa-xs"></i>
-                    </div>
-                </div>
+            <div class="user-component__column">
+                <i class="far fa-comment-alt fa-2x"></i>
             </div>
         </div>
-    </main>
+        <div class="icon-row">
+            <div class="icon-row__icon"><i class="far fa-calendar"></i><span>Calendar</span></div>
+            <div class="icon-row__icon"><i class="far fa-smile-beam"></i><span>Emoticons</span></div>
+            <div class="icon-row__icon"><i class="fas fa-paint-roller"></i><span>Theme</span></div>
+            <div class="icon-row__icon"><i class="fas fa-file-invoice-dollar"></i><span>Account</span></div>
+            </div>  
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <span class="more-suggestions__icon-text">KaKao Story</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <span class="more-suggestions__icon-text">KaKao Story</span>
+                </div>
+            </div>
+        </div>
+</main>
 
 
 <nav class=nav>
     <ul class="nav__list">
-        <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
+        <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
         <li class="nav__btn"><a class="nav__link" href="chats.html"><span class="nav__notification badge">1</span><i class="far fa-comment fa-2x"></i></a></li>
         <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
         <li class="nav__btn"><a class="nav__link" href="more.html"><span class="nav__dott"></span><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
     </ul>
 </nav>
-<div id="splash-screen">
-    <i class="fas fa-comment"></i>
-</div>
 <div id="no-mobile">
     <span>니 화면 너무큼....ㅜㅅㅜ</span>
 </div>
